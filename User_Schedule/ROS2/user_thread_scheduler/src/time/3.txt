@@ -1,0 +1,20 @@
+Samples: 485  of event 'context-switches', Event count (approx.): 5607
+Overhead  Command          Shared Object      Symbol
+  37.19%  swapper          [kernel.kallsyms]  [k] schedule_idle                                        ◆
+  20.24%  node             [kernel.kallsyms]  [k] schedule                                             ▒
+   6.05%  pthread          [kernel.kallsyms]  [k] schedule                                             ▒
+   5.76%  tokio-runtime-w  [kernel.kallsyms]  [k] schedule                                             ▒
+   5.17%  rcu_sched        [kernel.kallsyms]  [k] schedule                                             ▒
+   2.84%  sshd             [kernel.kallsyms]  [k] schedule                                             ▒
+   2.60%  cpuUsage.sh      [kernel.kallsyms]  [k] schedule                                             ▒
+   2.53%  kworker/u256:0-  [kernel.kallsyms]  [k] schedule                                             ▒
+   1.93%  code-fee1edb8d6  [kernel.kallsyms]  [k] schedule                                             ▒
+   1.91%  :-1              [kernel.kallsyms]  [k] do_task_dead                                         ▒
+   1.50%  kworker/2:3-eve  [kernel.kallsyms]  [k] schedule                                             ▒
+   1.27%  kworker/u256:28  [kernel.kallsyms]  [k] schedule                                             ▒
+   1.03%  cat              [kernel.kallsyms]  [k] do_task_dead                                         ▒
+   0.95%  kworker/3:1-eve  [kernel.kallsyms]  [k] schedule                                             ▒
+   0.75%  cpptools         [kernel.kallsyms]  [k] schedule                                             ▒
+   0.64%  bash             [kernel.kallsyms]  [k] schedule                                             ▒
+   0.59%  perf             [kernel.kallsyms]  [k] schedule                                             ▒
+   0.50%  HangDetector     [kernel.kallsyms]  [k] schedule 
